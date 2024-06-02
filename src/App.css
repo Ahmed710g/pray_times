@@ -1,0 +1,67 @@
+html{
+    direction: rtl;
+    --color-primary: rgba(16, 44, 82, 0.668);
+  
+   
+}
+body{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    background-color: rgba(80, 66, 66, 0.49);    
+}
+
+.svg{
+    background-image: url(./mosque-islam-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+*{
+    padding: 5px;
+}
+#btn-hover:hover{
+    background-color:black ;
+    color: rgb(242, 58, 159);
+}
+.header-h2{
+    color: rgb(58, 56, 57);
+}
+.load-h{
+    width: 200px;
+    animation: my  linear ;
+    height: 200px;
+    border:15px solid transparent;
+    border-radius: 50%;
+    animation-duration: 1s  ;
+    animation-iteration-count: infinite;
+    background-color:transparent;
+}
+.imgscal:hover{
+    scale: 1.3;
+}
+@keyframes my{
+    0% {
+        transform: rotate(0deg);
+        border-top-color: var(--color-primary); /* Start with var(--color-primary) border at the top */
+    }
+    25% {
+        border-top-color: transparent; /* Hide top border at 25% */
+    }
+    50% {
+        transform: rotate(90deg);
+        border-right-color: var(--color-primary); /* Rotate and show right border at 50% */
+    }
+    75% {
+        border-right-color: transparent; /* Hide right border at 75% */
+    }
+    100% {
+        transform: rotate(180deg);
+        border-bottom-color: var(--color-primary) /* Rotate and show bottom border at 100% */
+    }
+}
