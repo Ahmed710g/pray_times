@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/pray_times/static/css/main.d91db06b.css",
+    "main.js": "/pray_times/static/js/main.9d7c6206.js",
+    "static/js/453.d4ff5ebf.chunk.js": "/pray_times/static/js/453.d4ff5ebf.chunk.js",
+    "static/media/f.jpg": "/pray_times/static/media/f.27aceb6724bdd6c9765e.jpg",
+    "static/media/afternon.jpg": "/pray_times/static/media/afternon.e6dc7ea93b27af1cb9d5.jpg",
+    "static/media/asr.jpg": "/pray_times/static/media/asr.ed17883cf408075be34a.jpg",
+    "static/media/mosque-islam-svgrepo-com.svg": "/pray_times/static/media/mosque-islam-svgrepo-com.29217ec5b2fcd7fcf8d855b357ee4798.svg",
+    "index.html": "/pray_times/index.html",
+    "main.d91db06b.css.map": "/pray_times/static/css/main.d91db06b.css.map",
+    "main.9d7c6206.js.map": "/pray_times/static/js/main.9d7c6206.js.map",
+    "453.d4ff5ebf.chunk.js.map": "/pray_times/static/js/453.d4ff5ebf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d91db06b.css",
+    "static/js/main.9d7c6206.js"
+  ]
+}
